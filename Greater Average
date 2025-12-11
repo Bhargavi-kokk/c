@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+int T,A,B,C;
+scanf("%d",&T);
+while(T--){
+scanf("%d%d%d",&A,&B,&C);
+float D=(A+B)/2.0;
+if(D>C)
+{
+    printf("YES\n");
+}
+else
+{
+    printf("NO\n");
+}
+}
+return 0;
+}
+
